@@ -4,7 +4,7 @@
   "description": "web coffee using tailwindcss",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tailwind": "npx tailwindcss -i ./src/css/input.css -o ./dist/output.css --watch"
   },
   "keywords": [],
   "author": "danghieu",
