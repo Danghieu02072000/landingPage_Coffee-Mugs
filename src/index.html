@@ -8,9 +8,38 @@
 </head>
 <body>
     <div class="root">
-        <div class="content-wrapper">
-            <header>
-                Header
+        <div class="content-wrapper max-w-screen-2xl text-base mx-auto px-8 bg-slate-100">
+            <header class="py-6 mx-10">
+                <nav class="flex gap-6 justify-between items-center max-w-[900px] mx-auto">
+                    <a class="logo cursor-pointer h-6"><img src="./images/logo.png" alt="" class="h-full"></a>
+                    <ul class="list-menu flex-1 flex justify-end uppercase text-gray-500 font-medium text-sm">
+                        <li class="cursor-pointer p-1 mr-8 hover:text-gray-800 line-menu-header">
+                            <a href="/home">Home</a>
+                        </li>
+                        <li class="cursor-pointer p-1 mr-8 hover:text-gray-800 line-menu-header ">
+                            <a href="/home">Our Products</a>
+                        </li>
+                        <li class="cursor-pointer p-1 mr-8 hover:text-gray-800 line-menu-header ">
+                            <a href="/home">Blog</a>
+                        </li>
+                        <li class="cursor-pointer p-1 mr-8 hover:text-gray-800 line-menu-header ">
+                            <a href="/home">About</a>
+                        </li>
+                        <li class="cursor-pointer p-1 mr-8 hover:text-gray-800 line-menu-header ">
+                            <a href="/home">Contact</a>
+                        </li>
+                        <li class="cursor-pointer p-1 mr-8 hover:text-gray-800 line-menu-header ">
+                            <a href="/home">Styleguide</a>
+                        </li>
+                    </ul>
+                    <div class="cart">
+                        <a href="/" class="flex justify-center align-bottom gap-1.5 opacity-70 hover:opacity-100 cursor-pointer">
+                            <img src="./images/cart.png" alt="" class="h-5">
+                            <span class="text-sm uppercase font-medium">Cart</span>
+                            <span class="badge-circle text-white bg-gray-700">2</span>
+                        </a>
+                    </div>
+                </nav>
             </header>
             <main>
                 <section class="slider"></section>

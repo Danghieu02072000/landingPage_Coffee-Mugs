@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .line-menu-header {
+        @apply relative after:absolute after:bottom-0 after:left-0 after:bg-light-coffee after:h-0.5 after:w-0  
+        hover:after:w-full after:transition-all after:ease-in-out after:duration-500 ;
+    }
+    .badge-circle {
+        @apply h-5 w-5 rounded-full leading-5 text-center font-medium text-xs 
+    }
+}
