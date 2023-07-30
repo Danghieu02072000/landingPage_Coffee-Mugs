@@ -1,0 +1,15 @@
+{
+  "name": "project_2",
+  "version": "1.0.0",
+  "description": "web coffee using tailwindcss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "danghieu",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
