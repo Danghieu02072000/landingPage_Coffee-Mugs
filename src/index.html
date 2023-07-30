@@ -8,38 +8,64 @@
 </head>
 <body>
     <div class="root">
-        <div class="content-wrapper max-w-screen-2xl text-base mx-auto px-8 bg-slate-100">
-            <header class="py-6 mx-10">
-                <nav class="flex gap-6 justify-between items-center max-w-[900px] mx-auto">
-                    <a class="logo cursor-pointer h-6"><img src="./images/logo.png" alt="" class="h-full"></a>
-                    <ul class="list-menu flex-1 flex justify-end uppercase text-gray-500 font-medium text-sm">
-                        <li class="cursor-pointer p-1 mr-8 hover:text-gray-800 line-menu-header">
+        <div class="content-wrapper max-w-screen-2xl text-base mx-auto  bg-slate-100 font-Karla">
+            <header class=" mx-0 ms:mx-10 relative ">
+                <nav class="flex gap-8 ms:gap-6 justify-between items-center max-w-[950px] mx-auto py-6 px-8 ">
+                    <a class="logo cursor-pointer h-6 "><img src="./images/logo.png" alt="" class="h-full"></a>
+                    <ul class="list-menu flex-1 hidden ms:flex justify-end uppercase text-gray-500 font-bold text-xs tracking-widest">
+                        <li class="cursor-pointer p-1 mr-5 hover:text-gray-800 line-menu-header">
                             <a href="/home">Home</a>
                         </li>
-                        <li class="cursor-pointer p-1 mr-8 hover:text-gray-800 line-menu-header ">
+                        <li class="cursor-pointer p-1 mr-5 hover:text-gray-800 line-menu-header ">
                             <a href="/home">Our Products</a>
                         </li>
-                        <li class="cursor-pointer p-1 mr-8 hover:text-gray-800 line-menu-header ">
+                        <li class="cursor-pointer p-1 mr-5 hover:text-gray-800 line-menu-header ">
                             <a href="/home">Blog</a>
                         </li>
-                        <li class="cursor-pointer p-1 mr-8 hover:text-gray-800 line-menu-header ">
+                        <li class="cursor-pointer p-1 mr-5 hover:text-gray-800 line-menu-header ">
                             <a href="/home">About</a>
                         </li>
-                        <li class="cursor-pointer p-1 mr-8 hover:text-gray-800 line-menu-header ">
+                        <li class="cursor-pointer p-1 mr-5 hover:text-gray-800 line-menu-header ">
                             <a href="/home">Contact</a>
                         </li>
-                        <li class="cursor-pointer p-1 mr-8 hover:text-gray-800 line-menu-header ">
+                        <li class="cursor-pointer p-1 mr-5 hover:text-gray-800 line-menu-header ">
                             <a href="/home">Styleguide</a>
                         </li>
                     </ul>
-                    <div class="cart">
-                        <a href="/" class="flex justify-center align-bottom gap-1.5 opacity-70 hover:opacity-100 cursor-pointer">
+                    <div class="grow cart ms:grow-0 ">
+                        <a href="/" class="flex justify-end ms:justify-center align-bottom gap-1.5 opacity-70 hover:opacity-100 cursor-pointer">
                             <img src="./images/cart.png" alt="" class="h-5">
                             <span class="text-sm uppercase font-medium">Cart</span>
                             <span class="badge-circle text-white bg-gray-700">2</span>
                         </a>
                     </div>
+                    <div class="btn-responsive ms:hidden btn-menu"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                      </svg>
+                      </div>
                 </nav>
+                    <div class="menu-mobie py-5 transition-all ease-linear duration-500 -translate-y-[140%] absolute w-full bg-slate-100 -z-10">
+                        <ul class="list-menu flex-1 flex flex-col ms:hidden justify-center items-center  uppercase text-gray-500 font-bold text-xs tracking-widest gap-5">
+                            <li class="cursor-pointer p-1  hover:text-gray-800 ">
+                                <a href="/home">Home</a>
+                            </li>
+                            <li class="cursor-pointer p-1  hover:text-gray-800  ">
+                                <a href="/home">Our Products</a>
+                            </li>
+                            <li class="cursor-pointer p-1  hover:text-gray-800  ">
+                                <a href="/home">Blog</a>
+                            </li>
+                            <li class="cursor-pointer p-1  hover:text-gray-800  ">
+                                <a href="/home">About</a>
+                            </li>
+                            <li class="cursor-pointer p-1  hover:text-gray-800  ">
+                                <a href="/home">Contact</a>
+                            </li>
+                            <li class="cursor-pointer p-1  hover:text-gray-800  ">
+                                <a href="/home">Styleguide</a>
+                            </li>
+                        </ul>
+                    </div>
             </header>
             <main>
                 <section class="slider"></section>
@@ -53,5 +79,6 @@
             <footer></footer>
         </div>
     </div>
+    <script src="./js/main.js"></script>
 </body>
 </html>
