@@ -21,6 +21,21 @@
     @apply w-8 h-[1px] bg-gray-300;
   }
   .sub-headline__label {
-    @apply  mx-4 text-xs font-bold text-gray-500 uppercase tracking-widest;
+    @apply  mx-4 text-xs font-bold text-gray-500 uppercase tracking-widest text-center;
   }
+  .cus_transtion-hover {
+    @apply transition-all ease-in-out duration-500 
+  }
+  .product__name {
+    @apply  text-xl font-medium text-gray-600 mb-3 block;
+  } 
+.product__price {
+    @apply  text-xl text-coffee-400 mr-1 leading-6 font-medium;
+} 
+.product__sale {
+    @apply  text-base font-medium text-gray-400 line-through;
+} 
+.cus_btn {
+    @apply px-8 py-4 text-center uppercase font-semibold text-xs tracking-widest cursor-pointer hover:opacity-95 ;
+}
 }

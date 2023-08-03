@@ -44,6 +44,9 @@ module.exports = {
       backgroundImage: {
         'bg-slider': "url('../../src/images/img_slide.jpg')",
       },
+      maxWidth: {
+        'wrapper': '940px',
+      },
     },
   },
   plugins: [],
