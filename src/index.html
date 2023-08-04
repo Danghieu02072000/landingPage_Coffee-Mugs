@@ -10,7 +10,7 @@
 
 <body>
     <div class="root">
-        <div class="content-wrapper max-w-screen-2xl text-base mx-auto  bg-slate-100 font-Karla">
+        <div class="content-wrapper max-w-screen-2xl text-base mx-auto  bg-white font-Karla">
             <header class=" mx-0 ms:mx-10 relative ">
                 <nav class="flex gap-8 ms:gap-6 justify-between items-center max-w-[950px] mx-auto py-6 px-8 ">
                     <a class="logo cursor-pointer h-6 "><img src="./images/logo.png" alt="" class="h-full"></a>
@@ -398,7 +398,7 @@
                     </div>
                 </section>
 
-        <section class="subscribe-us w-full h-[350px] bg-gray-900 text-center flex flex-col iten-center justify-center gap-5">
+        <section class="subscribe-us w-full h-[350px] bg-gray-900 text-center flex flex-col iten-center justify-center gap-5 mb-24">
             <div class="sub-headline mb-0">
                 <div class="sub-headline__decor "></div>
                 <div class="sub-headline__label">Sign up and get free coffee bags</div>
@@ -407,14 +407,48 @@
             <h2 class="text-4xl leading-[3.5rem]  text-white ">Coffee Updates</h2>
             <div class="">
                 <form action="" class="flex gap-5 flex-col justify-center items-center md:gap-3 md:flex-row">
-                    <input type="text" class="px-6 py-4 max-w-[350px] w-11/12 border-[1px] border-gray-700 outline-none bg-inherit focus:border-gray-300 placeholder:text-white text-white " placeholder="danghieu42481@gmail.com">
+                    <input type="text" class="px-6 py-4 max-w-[350px] w-11/12 border-[1px] border-gray-700 outline-none bg-inherit focus:border-gray-300 placeholder:text-white text-white placeholder:text-center md:placeholder:text-start" placeholder="danghieu42481@gmail.com">
                     <button class="cus_btn bg-white text-gray-700 leading-6">Subscribe</button>
                 </form>
             </div>
 
         </section>
         </main>
-        <footer></footer>
+        <footer class="flex flex-col md:flex-row gap-10 md:gap-6 justify-between  max-w-[950px] mx-auto py-6 px-8 pb-24 text-center md:text-start">
+            <div class="basis-2/6">
+                <a class="logo cursor-pointer h-6 inline-block mb-4"><img src="./images/logo.png" alt="" class="h-full"></a>
+                <p class="mb-8 text-gray-500 text-sm">Delivering the best coffee life since 1996. From coffee geeks to the real ones.</p>
+                <span class=" text-gray-400 text-sm  hover:text-coffee-400"> Danghieu Blog. © 2023</span>
+            </div>
+            <div class="basis-1/6 ">
+                <h3 class="text-sm tracking-wider font-semibold text-gray-600 mb-4">Menu</h3>
+                <ul class="flex flex-col gap-3 text-gray-500 font-normal text-sm">
+                <li class=" hover:text-coffee-400"> <a href="#" class="">Home</a></li>
+                <li class=" hover:text-coffee-400"> <a href="#" class="">Our Product</a></li>
+                <li class=" hover:text-coffee-400"> <a href="#" class="">About</a></li>
+                <li class=" hover:text-coffee-400"> <a href="#" class="">Contact</a></li>
+                <li class=" hover:text-coffee-400"> <a href="#" class="">Styleguide</a></li>
+                <li class=" hover:text-coffee-400"> <a href="#" class="">DangHieu</a></li>
+                </ul>
+            </div>
+            <div class="basis-1/6">
+                <h3 class="text-sm tracking-wider font-semibold text-gray-600 mb-4">Follow Us</h3>
+                <ul class="flex flex-col gap-3 text-gray-500 font-normal text-sm">
+                <li class=" hover:text-coffee-400"> <a href="#" class="">Facebook</a></li>
+                <li class=" hover:text-coffee-400"> <a href="#" class="">Instagram</a></li>
+                <li class=" hover:text-coffee-400"> <a href="#" class="">Pinterest</a></li>
+                <li class=" hover:text-coffee-400"> <a href="#" class="">Twitter</a></li>
+                </ul>
+            </div>
+            <div class="basis-2/6">
+                <h3 class="text-sm tracking-wider font-semibold text-gray-600 mb-4">Contact Us</h3>
+                <span class="text-gray-500 font-normal text-sm mb-4 block">We're Always Happy to Help</span>
+                <span class="text-gray-800 text-[22px] tracking-wide mb-8 block  hover:text-coffee-400">
+                    <a href="#" class=" ">danghieu42481@gmail.com</a>
+                </span>
+                <span class="text-gray-500 font-normal text-sm block hover:text-coffee-400">Powered by danghieu Author</span>
+            </div>
+        </footer>
     </div>
     </div>
     <script src="./js/main.js"></script>
